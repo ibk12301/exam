@@ -1,0 +1,9 @@
+
+<h1>List of Titles:</h1>
+<div *ngFor="let i of userDetails.titles">
+    <h3>{{i}}</h3>
+</div>
+<p></p>
+<h2>firstName and lastName</h2>
+<app-bio-data firstName={{userDetails.firstname}} lastName={{userDetails.lastname}}></app-bio-data>
+
